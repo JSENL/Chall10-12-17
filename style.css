@@ -1,0 +1,128 @@
+@font-face
+{
+	font-family: Raleway;
+	src: url(raleway_thin.eot);
+	src: local(raleway_thin), url(raleway_thin.ttf) format(opentype);
+
+}
+body{
+	width:700px;
+	margin: 0 auto;
+	padding: 29px;
+	border: 1px solid #233;
+	border-top: none;
+	font: 82%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-image: url("image/damaskii.jpg");
+	background-repeat: repeat-x;
+	}
+
+h1{
+float: left;
+margin-top: 0;
+font-family: Raleway, Georgia, Times, Times new roman, serif;
+}
+
+h2, h3
+{
+font-family: Georgia, Times, Times New Roman, serif;
+}
+
+.header
+{
+border-bottom: 6px solid #233;
+border: 3px solid black;
+}
+p.intro
+{
+border:1px solid black;
+margin-top: 100px;
+background: -webkit-radial-gradient(#0A7DE8, #CDFF0C, #0DCFFF);
+}
+p.outro
+{
+border: 1px solid black;
+background:linear-gradient(#6F87B5, #CDFF0C);
+}
+.navigation
+{
+float: right;
+margin: 0;
+list-style: none;
+}
+
+.navigation li
+{float: left;
+}
+
+.navigation a
+{
+display: block;
+margin-left: .5em;
+padding: .5em;
+border: 1px solid #CCC;
+color:#233;
+text-decoration: none;
+}
+
+.navigation a:focus,
+.navigation a:hover{
+	background:#233;
+	color:#FFF;
+}
+
+td:hover 
+{ 
+-webkit-filter:hue-rotate(180deg);
+} 
+
+tr:hover 
+{ 
+-webkit-filter:hue-rotate(180deg);
+} 
+
+img.rare
+{
+	border: 5px solid black;
+	display: block;
+	width: 500px;
+	height: 500px;
+	margin-right: 2em;
+}
+
+.header .intro{
+	clear:both;
+	font-weight: bold;
+}
+
+.intro{
+	font-style: italic;
+}
+
+.ingredients
+{float: right;
+	margin: 0 0 15px 15px;
+	padding-left: 15px;
+	border-left: 1px solid #CCC;
+}
+
+.ingredients h3{
+	margin-top: 0;
+}
+
+.ingredients th{
+	text-align: left;
+}
+
+.ingredients th, .ingredients td{
+	padding: 2px 5px;
+}
+
+.ingredients .ingredient{
+	background-color: #CC5;
+}
+
+.ingredients .quantity
+{
+	background-color: #B53AAE;
+}
+
